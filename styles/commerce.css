@@ -1,0 +1,50 @@
+/* font styles */
+.roboto-normal {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* header section styles */
+/* navbar section styles */
+nav{
+    display: flex;
+    margin: 50px 160px;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 35px;
+    font-weight:500px;
+}
+nav input{
+    border-radius: 66px;
+    padding: 15px;
+    width:500px ;
+    font-weight: 500;
+    color: #CCCCCC;
+    font-size: 16px;
+    background-color: #F1F1F1;
+    margin: 5px 25px;
+    border: none;
+    
+}
+.icon{
+    position: relative;
+}
+nav i{
+    position: absolute;
+    top: 22px;
+    right: 72px;
+    color:#BABABA ; 
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: #707070;
+}

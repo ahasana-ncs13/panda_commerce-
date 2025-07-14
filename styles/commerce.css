@@ -60,7 +60,7 @@ nav a{
     font-weight:bold;
     font-size: 56px;
     color: #1F1F1F;
-    line-height: 1px;
+    margin-bottom: 0px;
 }
 .banner-description{
     color: #4E4E4E;   
@@ -69,7 +69,7 @@ nav a{
     font-size: 40px;
     font-weight: 600;
     color:#FF136F ;
-    line-height: 2px;
+    margin-bottom: 5px;
 }
 .btn-style{
     color:#FFFFFF ;
@@ -79,6 +79,108 @@ nav a{
     padding: 15px 28px;
 }
 img{
-    width: 400px;
+    max-width: 400px;
     height: auto;
+}
+/* categories section style */
+.categories{
+    max-width: 1040px;
+    margin: auto;
+    margin-bottom:45px ;
+}
+.categories-title{
+    font-size: 36px;
+    font-weight: 600;
+}
+.categories-content{
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+}
+.watch{
+    background-color:#FF9C35 ;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    padding-left: 20px;
+     border-radius: 15px;
+}
+.bag{
+   background-color: #FF589B;
+   display: flex;
+   align-items: center;
+   gap: 75px;
+    padding-left: 20px;
+     border-radius: 15px;
+}
+.shoes{
+    background-color:#3F07F8 ;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+     padding-left: 20px;
+      border-radius: 15px;
+}
+.title{
+    font-size: 36px;
+    color: #FFFFFF;
+}
+/* main section styles */
+main{
+    background-color: #36353514;
+}
+/* shoes section styles */
+.shoes-section{
+     max-width: 1240px;
+    margin: auto;
+}
+.shoes-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoes-nav a{
+    text-decoration: none;
+    color: #FF9D00;
+    font-size: 20px;
+}
+.shoes-nav h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+.shoes-section-content{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.shoes-1{
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+}
+.shoes-2{
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+}
+.shoes-3{
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+}
+.main-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+.main-description{
+    color: #4E4E4E;
+}
+.main-price{
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn-main{
+    background-color:#000000 ;
 }

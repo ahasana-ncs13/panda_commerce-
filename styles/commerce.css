@@ -128,10 +128,11 @@ img{
 /* main section styles */
 main{
     background-color: #36353514;
+    padding-bottom: 70px;
 }
 /* shoes section styles */
 .shoes-section{
-     max-width: 1240px;
+    max-width: 1240px;
     margin: auto;
 }
 .shoes-nav{
@@ -183,4 +184,81 @@ main{
 }
 .btn-main{
     background-color:#000000 ;
+}
+
+/* backpack section  */
+.backpack-section{
+     max-width: 1240px;
+    margin: auto;
+}
+.backpack-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.backpack-nav a{
+    text-decoration: none;
+    color: #FF9D00;
+    font-size: 20px;
+}
+.backpack-nav h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+.backpack-section-content{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.backpack-1{
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+}
+.backpack-2{
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+}
+.backpack-3{
+    background-color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+}
+
+/* footer section  */
+footer{
+    margin: 75px 115px;
+}
+.footer-container{
+    background-color: #FFF2F1;
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 150px 350px;
+    text-align: center;
+}
+.footer-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1F1F1F;
+    margin: 0px;
+}
+.footer-description{
+    color: #707070;
+}
+.footer-input{
+    display: flex;
+}
+footer input{
+    border: none;
+    color: #CCCCCC;
+    font-size: 24px;
+    padding: 15px 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+.btn{
+    padding:20px 50px;
+    border-radius: 0px 10px 10px 0px;
+    font-size:25px ;
 }

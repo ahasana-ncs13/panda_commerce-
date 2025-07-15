@@ -249,6 +249,7 @@ footer{
 }
 .footer-input{
     display: flex;
+    justify-content: center;
 }
 footer input{
     border: none;
